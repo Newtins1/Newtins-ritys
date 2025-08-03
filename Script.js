@@ -1,3 +1,3 @@
 function sayHello() {
-  alert("Favour i like your breast, your ass, i go like taste am this semester ");
+  alert("Happy new month to the both of you(Peter Jeremiah");
 }
