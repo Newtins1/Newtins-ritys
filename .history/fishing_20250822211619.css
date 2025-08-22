@@ -653,9 +653,5 @@ color: rgb(248, 1, 22);
 
     .booster {
         width: 100%;
-        height: auto;
-        max-width: 100%;
-        left: 0;
-        top: 60px;
     }
 }

@@ -643,19 +643,7 @@ color: rgb(248, 1, 22);
         font-size: 80px;
         left: 10%;
         top: 5%;
-        position: relative;
-    }
-    #first-bar, #second-bar, #Envelop, #left-arrow {
-        font-size: 30px;
-        position: relative;
-        margin: 5px;
-    }
+        posi
 
-    .booster {
-        width: 100%;
-        height: auto;
-        max-width: 100%;
-        left: 0;
-        top: 60px;
     }
 }
