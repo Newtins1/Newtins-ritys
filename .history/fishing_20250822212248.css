@@ -640,9 +640,14 @@ color: rgb(248, 1, 22);
     }
     #house {
         font-size: 80px;
-        left: 41%;
-        top: 40%;
-        position: absolute;
+        left: 10%;
+        top: 5%;
+        position: relative;
+    }
+    #first-bar, #second-bar, #Envelop, #left-arrow {
+        font-size: 30px;
+        position: relative;
+        margin: 5px;
     }
 
     .booster {
