@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="fishing.css">
+        <link rel="stylesheet" href="css/all.min.css">
+    </head>
+
+    <body class="main-body">
+            <!--HOME========NAVIGATOR=========MENUS==================================-->
+            <div class="navigators">
+                <i class="fa-solid fa-house-user" id="house" onclick="dashboard()"></i>
+                <i class="fa-solid fa-bars" id="first-bar"></i>
+                <i class="fa-solid fa-envelope" id="Envelop"></i>
+            </div>
+
+             <!--SUPPORT===========NAVIGATION========================MENUS=============-->
+            <div class="support" style="font-family: sans-serif;">
+
+                <div class="content-board">
+                    <i class="fa-solid fa-arrow-left" id="return" onclick="returndashboard()"></i>
+
+
+                        <div class="content">
+                            <div class="content-conten">
+                                <h2>Contact US</h2>
+                                <h4>Any questions or remarks? Just write us a message!</h4><br>
+
+                                <div class="first-area">
+                                    Email<br>
+                            <input type="email" class="email-input" placeholder="Enter a valid email address">
+                                </div>
+                                
+                                <div class="second-area">
+                                    Name<br>
+        
+                                    <input class="name-input" type="text" placeholder="Enter your name">
+                                </div>
+                                <button class="submit-button" type="submit">Submit</button>
+                            </div>
+
+                                <div class="box-pad">
+
+                                    <i class="fa-brands fa-instagram" id="social"></i>
+                                    <i class="fa-brands fa-twitter" id="twatter"></i>
+                                    <i class="fa-brands fa-facebook" id="fabook"></i>
+                                    <i class="fa-brands fa-whatsapp" id="watapp"></i>
+                                    <i class="fa-brands fa-youtube" id="yatube"></i>
+
+
+                                    <div class="box-pad-2">
+                                        <i class="fa-solid fa-user" id="standard"><p id="writing">ABOUT CLUB<br>Running guide workouts</p></i>
+                                    <i class="fa-solid fa-location-dot" id="organize">
+                                        <p id="writing">OUR OFFICE LOCATION
+                                    The interior design studio company</p></i>
+                                    <i class="fa-solid fa-phone-flip" id="stable"><p id="writing">PHONE(LANDLINE)<br>09020378076</p></i>
+                                    </div>
+                            </div>
+                            </div>
+                            
+        <!--=============Social================================media=====================reach=====Area=====-->
+
+                    </div>
+                </div>
+
+
+            <!--BODY===================SECTION====================================-->
+
+
+            
+                <div class="booster">
+                    <i class="fa-solid fa-xmark" id="second-bar"></i>
+                    <nav> 
+                        <a href="">About</a>
+                        <a href="">Apply</a>
+                        <a class="link-to-support" onclick="linktosupport()">Support</a>
+                        <a onclick="logindashboard()">Login</a>
+                    </nav>
+                </div>
+            <div class="open">
+                <i class="fa-solid fa-arrow-left" id="left-arrow" onclick="leftarrow()"></i>
+                <div class="details">
+                    <img class="site" src="images/site.png">
+                    <div class="horizontal"></div>
+                    <input id="vision-1" class="vision" type="email" placeholder="Email">
+                    <input id="vision-2" class="vision" type="number" placeholder="Phone number">
+                    <input id="vision-3" class="vision" type="textarea" placeholder="Address 1">
+                    <input id="vision-4" class="vision" type="textarea" placeholder="Address 2">
+                    <input id="vision-5" class="vision" type="number" placeholder="Ssn">
+                    <input id="vision-6" class="vision" type="password" placeholder="password">
+                    <input id="vision-7" class="vision" type="password" placeholder="Confirm password">
+                    <button id="click" type="submit">Submit</button>
+                
+                </div>
+            </div>
+
+<!--===============LOGIN========================SECTION====================-->
+
+            <div class="login">
+                 <i class="fa-solid fa-arrow-left" id="revise" onclick="revise()"></i>
+                <div class="login-block">
+                    <div class="login-2">
+                        <div class="login-block-3">
+                            <div class="boxes">
+                                <input class="columns" type="text" placeholder="&nbsp; &nbsp; &nbsp; Username/Email" required><br>
+                                <input class="columns" type="password" placeholder="&nbsp; &nbsp; &nbsp;password" required><br>
+                                <button class="columns-button" type="submit"> SIGN IN</button><br><br>
+                                <p class="text-writing">Forgot the password? &nbsp; <a class="other-link" onclick="">Click here</a></p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="line-breaker"></div>
+                </div>
+            </div>
+
+        <script src="fishing.js"></script>
+    </body>
+</html>

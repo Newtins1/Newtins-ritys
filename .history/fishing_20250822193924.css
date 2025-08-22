@@ -1,0 +1,351 @@
+* {
+    box-sizing: border-box;
+}
+
+#writing-1 {
+    display: flex;
+    margin-left: 78%;
+}
+
+#baby {
+    display: flex;
+    margin-left: 0;
+}
+
+/* PAGE>HTML>SECTION*/
+
+.body-1 {
+    display: flex;
+background: linear-gradient(rgba(230, 68, 79, 0.4)), url(images/site.png);
+cursor: pointer;
+font-weight: 550;
+background-repeat: no repeat;
+background-attachment: fixed;
+background-size: cover;
+margin: 0;
+padding: 0;
+overflow-x: auto;
+overflow-y: auto;
+}
+
+#block-1 {
+    margin-left: 1005px;
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    border-top: 1px solid red;
+    background-color: #000000;
+    border-bottom: 1.3px solid red;
+    border-left: 0.1px solid red;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 3px;
+    max-height: 0;
+    transition: max-height 0.7s ease-out;
+    overflow: hidden;
+    
+}
+
+#block-1.show {
+    max-height: 500px;
+}
+
+/*=================USER===========BUTTON===========================================*/
+#first-click {
+    margin-left: 400px;
+    width: 100px;
+    height: 90px;
+border-radius: 5px;
+margin-top: 15px;
+}
+
+
+#first-click:hover {
+    box-shadow: 0px 4px 25px 8px #ff6874;
+    transition: 0.3s;
+}
+
+ #block-2 {
+    position: fixed;
+    left: 0vh;
+    top: 0;    
+}
+
+#user-slash {
+    color: #103818;
+}
+
+#user-slash:hover {
+    color: #000000;
+}
+/*===============================================ADMIN==BLOCK=========================================================*/
+/*---Admin------Section------
+--------------------=======*/
+.sugar {
+    width: 100px;
+    height: 50px;
+    background: none;
+    border: none;
+    margin-top: 20px;
+    position: absolute;
+    left: 800px;
+    cursor: pointer;
+    color: #565500;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 800;
+}
+
+/* Admin----Hover---
+=-----------Section----*/
+.sugar:hover {
+    box-shadow: 0px 4px 25px #16f06a;
+    color: #000000;
+    transition: 0.3s;
+    background: none;
+    height: 110px;
+    width: 120px;
+}
+
+
+/*===================================================================================================*/
+
+#list {
+    width: 200px;
+    position: absolute;
+    background-color: aliceblue;
+    height: 100%;
+    list-style-type: none;
+    padding: 3px;
+    margin-left: 45px;
+    border: 0.5px solid red;
+    border-radius: 5px;
+    max-height: 0;
+    transition: max-height 0.6s ease-out;
+    overflow: hidden;
+}
+
+#list.show {
+    max-height: 300px;
+    transition: 0.5s ease-out;
+}
+
+li {
+    background-color: rgb(187, 21, 48);
+    width: 202px;
+    height: 58.5px;
+    border-radius: 2px;
+    align-items: center;
+}
+
+a {
+    color: #16f06a;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+/* BODY _2 SECTION*/
+
+#body-2 {
+    width: 400px;
+    height: 400px;
+    background-color: #565500;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    border-bottom: 3px solid #ffffff;
+    border-right: 3px solid #ffffff;
+    border-top: 3px solid #ffffff;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 3px;
+    max-width: 0;
+    overflow: hidden;
+    transition: max-width 0.6s ease-out;
+    position: absolute;
+}
+
+ #body-2.show {
+    max-width: 500px;
+}
+
+#body-2.hide {
+    max-width: 0;
+    overflow: hidden;
+    transition: max-width 0.7s ease-in;
+}
+
+#table-1 {
+    color: red;
+    padding: 5px;
+    line-height: 30px;
+    background-color: #ffffff;
+    margin-left: 40px;
+    padding-inline: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 3px solid #000000;
+}
+
+#table-2 {
+    color: cornflowerblue;
+    background-color: #000000;
+    padding-inline: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 3px solid white;
+    padding: 20px;
+}
+
+#second-click {
+    color:#000000;
+    position: absolute;
+font-weight: 800;
+}
+
+
+#second-click:hover {
+    font-weight: 800;
+    transition: 0.3s;
+    border: none;
+    background: none;
+
+}
+
+table, th, td {
+    border: 1px solid green;
+}
+
+th {
+    background-color: yellowgreen;
+}
+td {
+    background-color: purple;
+}
+
+/*Footer-Section*/
+.footer-top {
+    color: crimson;
+    width: 100%;
+    height: 100%;
+    background-color: cornflowerblue;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    position: absolute;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.7s ease-out;
+}
+
+.footer-top.show {
+    max-height: 100%;
+    box-shadow: 0px 3px 8px 6px #0dca36;
+}
+
+.footer-top.disappear {
+    max-height: 0;
+    transition: 0.7s ease-out;
+
+}
+
+#footer {
+    border: 3px solid #0dca36;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#main-form button {
+    color: #16f06a;
+    height: 40px;
+    font-weight: 650;
+border-radius: 5px;
+font-weight: 800;
+box-shadow: 2px 4px 25px 8px;
+}
+
+
+
+#main-form {
+left: 500px;
+top: 585px;
+margin-left: 600px;
+}
+
+#form-1 {
+position: absolute;
+top: 340px;
+left: 600px;
+height: 40px;
+padding: 0;
+}
+
+#form-1:hover {
+    background-color: #131111;
+    padding: 1PX;
+    height: 50px;
+    box-shadow: 0PX 3PX 15PX 0.5PX #16f06a;
+}
+
+#block-3 {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.6s ease-out;
+}
+
+#bar {
+    font-size: 40px;
+    margin-left: 50px;
+    border: none;
+    padding: 0;
+    background: none;
+    position: absolute;
+    display: flex;
+    left: 100px;
+    top: 5vh;
+}
+#bar:hover {
+    box-shadow: 0px 3px 6px 0.5px #16f06a;
+    transition: 0.4s ease-out;
+    cursor: pointer;
+    padding: 2px;
+}
+
+#arrow {
+    font-size: 50px;
+    padding-right: 2px;
+    color: red;
+    position: absolute;
+    bottom: 30.7px;
+    
+}
+
+.miracle #register{
+    border: 2px solid #846;
+    border-radius: 15px;
+    position: absolute;
+    display: flex;
+    top: 200px;
+    left: 550px;
+    justify-content: space-around;
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    background-color: rgb(112, 192, 192);
+}
+
+#register {
+    color: #000000;
+}
+
+
+.collapse a {
+    font-size: 40px;
+    position: absolute;
+    padding: 0;
+    position: absolute;
+    display: flex;
+}
+.collapse:hover {
+    box-shadow: 0px 3px 8px 5px #0dca36;
+}
+
+#house {
+    font-size: 50px;
+}
