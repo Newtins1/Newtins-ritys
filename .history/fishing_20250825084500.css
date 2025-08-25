@@ -630,7 +630,6 @@ color: rgb(248, 1, 22);
         flex-direction: column;
         height: auto;
         background-size: cover;
-        justify-content: space-around;
     }
     .site {
         width: 90%;
@@ -640,9 +639,9 @@ color: rgb(248, 1, 22);
         position: relative;
     }
     #house {
-        font-size: 150px;
-        left: 31vh;
-        top: 38vh;
+        font-size: px;
+        left: 5%;
+        top: 10%;
         position: relative;
     }
 
